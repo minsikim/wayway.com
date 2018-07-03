@@ -3,28 +3,37 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     justify-content: center;
+    margin: 0px;
 }
 
 .nav{
     height: 60px;
+    padding-top: 10px;
+    box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.2);
 }
 
 .nav-wrapper{
     max-width: 1024px;
     margin: auto;
-
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    position: relative;
+    top: 5px;
 }
 
-.title{
-
+.title img{
+    height: 40px;
 }
 
 .nav-button-wrapper{
-
+    display: flex;
+    justify-self: end;
+    align-self: center;
+    font-weight: 600;
 }
 
 .nav-button{
-
+    padding: 10 30 10 30px;
 }
 
 .wrapper{
@@ -33,7 +42,7 @@ body{
 }
 
 .main-slideshow{
-
+    margin: 20 0 20 0px;
 }
 
 .main-slideshow img{
