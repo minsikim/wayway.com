@@ -2,13 +2,16 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    justify-content: center;
 }
 
 .nav{
-
+    height: 60px;
 }
 
 .nav-wrapper{
+    max-width: 1024px;
+    margin: auto;
 
 }
 
@@ -20,8 +23,13 @@ body{
 
 }
 
-.wrapper{
+.nav-button{
 
+}
+
+.wrapper{
+    max-width: 1024px;
+    margin: auto;
 }
 
 .main-slideshow{
